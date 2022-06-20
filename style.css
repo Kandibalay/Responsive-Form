@@ -261,8 +261,6 @@ input:focus + .error-message {
     input:focus + .error-message {
         display: block;
     }
-
-}
 @media screen and (max-width: 900PX) {
     main {
         background-image: url(bg-intro-desktop.png);
