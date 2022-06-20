@@ -21,10 +21,14 @@
         <div class="form">
             <p class="trial"><b>Try it free 7 days</b> then $20/mo. thereafter</p>
             <form action="#">
-                 <input type="text" id="firstname" placeholder="First Name" required="required" title="first name cannot be empty"><br>
-                 <input type="text" id="lastname" placeholder="Last Name" required><br>
-                 <input type="email" id="email" placeholder="Email Address" required><br>
-                 <input type="password" id="password" placeholder="Password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and one lowercase letter, and at least 8 or more characters"><br>
+                 <input type="text" id="firstname" placeholder="First Name" required="required">
+                 <p class="error-message"><i>First name cannot be empty</i></p><br>
+                 <input type="text" id="lastname" placeholder="Last Name" required>
+                 <p class="error-message"><i>last name cannot be empty</i></p><br>
+                 <input type="email" id="email" placeholder="Email Address" required>
+                 <p class="error-message"><i>looks like this is not an email</i></p><br>
+                 <input type="password" id="password" placeholder="Password" value="email@example.com" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and one lowercase letter, and at least 8 or more characters">
+                 <p class="error-message"><i>Password cannot be empty</i></p><br>
                 <button>CLAIM YOUR FREE TRIAL</button>
                 <P class="terms">By clicking the button you are agreeing to our <a href="#">Terms and services</a></P>
 

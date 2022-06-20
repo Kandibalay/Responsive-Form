@@ -6,6 +6,7 @@
 body  {
     width: 100vw;
     font-family: 'Poppins';
+  
 
 }
 main {
@@ -98,12 +99,41 @@ a {
     color: hsl(0, 100%, 74%);
     font-weight: 900;
 }
+input:hover{
+    border: 2px solid hsl(0, 100%, 74%);
+}
+button:hover {
+    background-color: hsl(154, 59%, 51%);
+    border: 2px solid hsl(154, 59%, 51%);
+}
+button:active {
+    border: 1px solid rgb(71, 16, 30);
+    background-color: rgb(71, 16, 30);
+
+}
+input:active{
+    border: 2px solid hsl(0, 100%, 74%);
+    background-image: url(icon-error.svg); 
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
 input:focus {
     border: 2px solid hsl(0, 100%, 74%);
     background-image: url(icon-error.svg); 
     background-repeat: no-repeat;
     background-position: right;
     
+}
+.error-message {
+    color: hsl(0, 100%, 74%);
+    float: right;
+    font-family:'Poppins';
+    font-size: small;
+    display: none;
+}
+input:focus + .error-message {
+    display: block;
 }
 
 @media screen and (max-width:1440px) {
@@ -206,9 +236,7 @@ input:focus {
     }
     input:hover{
         border: 2px solid hsl(0, 100%, 74%);
-    }
-    button:hover {
-        border: 1px solid white; 
+    
     }
     input:active{
         border: 2px solid hsl(0, 100%, 74%);
