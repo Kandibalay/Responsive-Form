@@ -340,7 +340,7 @@ input:focus + .error-message {
         padding: 10px;
         border-radius: 10px;
         width: 70vw;
-        height: 300px;
+        height: 310px;
         margin: auto;
         box-shadow: 0px 3px 3px hsl(249, 10%, 26%);
         margin-top: 20px;
