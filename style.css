@@ -390,7 +390,7 @@ input:focus + .error-message {
         text-align: center;
         margin-top: 10px;
         padding: px 20px;
-        }
+    }
     input {
         height: 20px;
         border: 1px solid  hsl(152, 23%, 86%);
@@ -473,8 +473,3 @@ input:focus + .error-message {
         display: block;
     }
 }
-    
-    
-    
-    
-    
