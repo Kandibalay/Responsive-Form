@@ -251,6 +251,16 @@ input:focus + .error-message {
         background-position: right;
         
     }
+    .error-message {
+        color: hsl(0, 100%, 74%);
+        float: right;
+        font-family:'Poppins';
+        font-size: small;
+        display: none;
+    }
+    input:focus + .error-message {
+        display: block;
+    }
 
 }
 @media screen and (max-width: 900PX) {
@@ -297,6 +307,16 @@ input:focus + .error-message {
     }
     input {
         font-size: 10px;
+    }
+    .error-message {
+        color: hsl(0, 100%, 74%);
+        float: right;
+        font-family:'Poppins';
+        font-size: small;
+        display: none;
+    }
+    input:focus + .error-message {
+        display: block;
     }
         
 }
@@ -385,6 +405,16 @@ input:focus + .error-message {
         font-weight: 600;
                
     }
+    .error-message {
+        color: hsl(0, 100%, 74%);
+        float: right;
+        font-family:'Poppins';
+        font-size: small;
+        display: none;
+    }
+    input:focus + .error-message {
+        display: block;
+    }
          
         
 }
@@ -433,6 +463,16 @@ input:focus + .error-message {
     }
     .form {
         height: 100%;
+    }
+    .error-message {
+        color: hsl(0, 100%, 74%);
+        float: right;
+        font-family:'Poppins';
+        font-size: small;
+        display: none;
+    }
+    input:focus + .error-message {
+        display: block;
     }
 }
     
